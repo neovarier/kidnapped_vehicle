@@ -41,4 +41,7 @@ As we reduce the number of particles, the total time for the program decreases. 
 For num_particles=3, the particle filter does not succeed.
 For num_particles=4, the particle filter succeeds.
 
-Beyond 200 particles, the filter tends to achieve the above good error range
+Beyond 200 particles, the filter tends to achieve the above good error range.
+
+The code from lessons were helpful
+Understood the usage of discrete_distribution from http://en.cppreference.com/w/cpp/numeric/random/discrete_distribution
