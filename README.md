@@ -30,4 +30,15 @@ Based on the weights, particles are resamples.
 Particles in the new set have instances as per their weights.
 Using discrete_distribution, the particles are resampled
 
+## Results
 The simulator gives the following message "Success! Your particle filter passed!"
+Some of the recorded error in positions:
+* x =.111, y =.101, yaw=0.004
+* x =.109, y =.102, yaw=0.004
+* x =.109, y =.103, yaw=0.004
+
+As we reduce the number of particles, the total time for the program decreases. But the error in the predicted position increases.
+For num_particles=3, the particle filter does not succeed.
+For num_particles=4, the particle filter succeeds.
+
+Beyond 200 particles, the filter tends to achieve the above good error range
